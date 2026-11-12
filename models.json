@@ -1,0 +1,182 @@
+{
+  "M001": {
+    "name": "Breast Cancer LogReg",
+    "algorithm": "logistic_regression",
+    "dataset": "breast_cancer",
+    "accuracy": 0.96,
+    "f1_score": 0.95,
+    "score": 0.955,
+    "verdict": "Good"
+  },
+  "M002": {
+    "name": "Breast Cancer RF",
+    "algorithm": "random_forest",
+    "dataset": "breast_cancer",
+    "accuracy": 0.97,
+    "f1_score": 0.96,
+    "score": 0.965,
+    "verdict": "Good"
+  },
+  "M003": {
+    "name": "Breast Cancer XGB",
+    "algorithm": "xgboost",
+    "dataset": "breast_cancer",
+    "accuracy": 0.98,
+    "f1_score": 0.97,
+    "score": 0.975,
+    "verdict": "Good"
+  },
+  "M004": {
+    "name": "Churn RF",
+    "algorithm": "random_forest",
+    "dataset": "telco_churn",
+    "accuracy": 0.8,
+    "f1_score": 0.74,
+    "score": 0.77,
+    "verdict": "Average"
+  },
+  "M005": {
+    "name": "Churn LogReg",
+    "algorithm": "logistic_regression",
+    "dataset": "telco_churn",
+    "accuracy": 0.78,
+    "f1_score": 0.68,
+    "score": 0.73,
+    "verdict": "Average"
+  },
+  "M006": {
+    "name": "Churn XGB",
+    "algorithm": "xgboost",
+    "dataset": "telco_churn",
+    "accuracy": 0.84,
+    "f1_score": 0.79,
+    "score": 0.815,
+    "verdict": "Average"
+  },
+  "M007": {
+    "name": "Iris KNN",
+    "algorithm": "knn",
+    "dataset": "iris",
+    "accuracy": 0.97,
+    "f1_score": 0.97,
+    "score": 0.97,
+    "verdict": "Good"
+  },
+  "M008": {
+    "name": "Iris SVM",
+    "algorithm": "svm",
+    "dataset": "iris",
+    "accuracy": 0.98,
+    "f1_score": 0.98,
+    "score": 0.98,
+    "verdict": "Good"
+  },
+  "M009": {
+    "name": "House Price KNN",
+    "algorithm": "knn",
+    "dataset": "house_prices",
+    "accuracy": 0.66,
+    "f1_score": 0.61,
+    "score": 0.635,
+    "verdict": "Poor"
+  },
+  "M010": {
+    "name": "Spam SVM",
+    "algorithm": "svm",
+    "dataset": "spam_emails",
+    "accuracy": 0.93,
+    "f1_score": 0.91,
+    "score": 0.92,
+    "verdict": "Good"
+  },
+  "M011": {
+    "name": "Spam Neural Net",
+    "algorithm": "neural_network",
+    "dataset": "spam_emails",
+    "accuracy": 0.95,
+    "f1_score": 0.94,
+    "score": 0.945,
+    "verdict": "Good"
+  },
+  "M012": {
+    "name": "Fraud LogReg",
+    "algorithm": "logistic_regression",
+    "dataset": "credit_fraud",
+    "accuracy": 0.99,
+    "f1_score": 0.55,
+    "score": 0.77,
+    "verdict": "Average"
+  },
+  "M013": {
+    "name": "Fraud XGB",
+    "algorithm": "xgboost",
+    "dataset": "credit_fraud",
+    "accuracy": 0.99,
+    "f1_score": 0.82,
+    "score": 0.905,
+    "verdict": "Good"
+  },
+  "M014": {
+    "name": "MNIST Neural Net",
+    "algorithm": "neural_network",
+    "dataset": "mnist",
+    "accuracy": 0.98,
+    "f1_score": 0.98,
+    "score": 0.98,
+    "verdict": "Good"
+  },
+  "M015": {
+    "name": "MNIST KNN",
+    "algorithm": "knn",
+    "dataset": "mnist",
+    "accuracy": 0.96,
+    "f1_score": 0.96,
+    "score": 0.96,
+    "verdict": "Good"
+  },
+  "M016": {
+    "name": "Sentiment LogReg",
+    "algorithm": "logistic_regression",
+    "dataset": "imdb_reviews",
+    "accuracy": 0.88,
+    "f1_score": 0.87,
+    "score": 0.875,
+    "verdict": "Good"
+  },
+  "M017": {
+    "name": "Sentiment Neural Net",
+    "algorithm": "neural_network",
+    "dataset": "imdb_reviews",
+    "accuracy": 0.91,
+    "f1_score": 0.9,
+    "score": 0.905,
+    "verdict": "Good"
+  },
+  "M018": {
+    "name": "Diabetes SVM",
+    "algorithm": "svm",
+    "dataset": "diabetes",
+    "accuracy": 0.74,
+    "f1_score": 0.68,
+    "score": 0.71,
+    "verdict": "Average"
+  },
+  "M019": {
+    "name": "Diabetes RF",
+    "algorithm": "random_forest",
+    "dataset": "diabetes",
+    "accuracy": 0.77,
+    "f1_score": 0.72,
+    "score": 0.745,
+    "verdict": "Average"
+  },
+  "M020": {
+    "name": "Titanic RF",
+    "algorithm": "random_forest",
+    "dataset": "titanic",
+    "accuracy": 0.82,
+    "f1_score": 0.78,
+    "score": 0.8,
+    "verdict": "Average"
+  }
+}
